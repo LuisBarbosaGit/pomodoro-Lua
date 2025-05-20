@@ -1,4 +1,4 @@
-import { MoonStar } from 'lucide-react'
+import { HomeIcon, ListRestartIcon, MoonStar, RotateCcwIcon, SettingsIcon, SunIcon } from 'lucide-react'
 import styles from  './Styles.module.css'
 
 
@@ -6,16 +6,16 @@ export function Menu() {
     return(
         <div className={styles.menu}>
             <a href="" className={styles.menuLink}>
-                <MoonStar />
+                <HomeIcon />
             </a>
             <a href="" className={styles.menuLink}>
-                <MoonStar />
+                <RotateCcwIcon />
             </a>
             <a href="" className={styles.menuLink}>
-                <MoonStar />
+                <SettingsIcon />
             </a>
             <a href="" className={styles.menuLink}>
-                <MoonStar />
+                <SunIcon />
             </a>
         </div>
     )

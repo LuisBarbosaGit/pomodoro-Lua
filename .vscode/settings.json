@@ -8,6 +8,8 @@
   "workbench.activityBar.location": "default",
   "editor.lineNumbers": "on",
   "files.eol": "\n",
+  "workbench.editor.labelFormat": "short",
+  "editor.tabSize": 2,
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,

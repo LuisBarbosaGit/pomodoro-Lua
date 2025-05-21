@@ -1,4 +1,4 @@
-import { HomeIcon, ListRestartIcon, MoonStar, RotateCcwIcon, SettingsIcon, SunIcon } from 'lucide-react'
+import { HomeIcon, RotateCcwIcon, SettingsIcon, SunIcon } from 'lucide-react'
 import styles from  './Styles.module.css'
 
 

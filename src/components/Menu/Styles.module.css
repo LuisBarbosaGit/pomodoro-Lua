@@ -1,31 +1,26 @@
-.logo{
+.menu{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.logoLink{
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  font-size: 4.5rem;
-  background: linear-gradient(90deg, var(--gray-400), var(--gray-200));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-weight: bold;
   gap: 2.3rem;
+}
+
+.menuLink{
+  display: flex;
+  background: var(--gray-300);
+  justify-content: center;
+  align-items: center;
   transition: all 0.1s ease-in;
+  border-radius: 10px;
+  padding: 1.2rem;
 }
 
-.logoLink svg{
-  color: var(--gray-300);
-  width: 7.2rem;
-  height: 7.2rem;
+.menuLink svg{
+  color: var(--text-over-primary);
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
-.logoLink:hover{
+.menuLink:hover{
   filter: brightness(70%);
 }

@@ -1,0 +1,32 @@
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.3rem;
+  flex-direction: column;
+}
+
+.formRow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.3rem;
+  flex-direction: column;
+}
+
+.enviar{
+  margin: 2.5rem;
+  width: 16rem;
+  height: 5.6rem;
+  border-radius: 10px;
+  background: var(--gray-300);
+  color: var(--text-over-primary);
+  font-size: 2rem;
+  font-weight: bold;
+  transition: all 0.1s ease;
+}
+
+.enviar:hover{
+  filter: brightness(80%);
+  cursor: pointer;
+}

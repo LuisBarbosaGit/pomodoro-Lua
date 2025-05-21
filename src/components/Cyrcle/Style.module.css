@@ -1,0 +1,33 @@
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--gray-200);
+  gap: 1.4rem;
+}
+
+.ciclosTitle{
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.circleDots{
+  display: flex;
+  gap: 1.4rem;
+}
+
+.circleDot{
+  width: 1.8rem;
+  height: 1.8rem;
+  background: var(--success);
+  border-radius: 50%;
+}
+
+.shortInterval{
+  background: var(--warning);
+}
+
+.longInterval{
+  background: var(--info);
+}

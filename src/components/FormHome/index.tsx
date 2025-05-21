@@ -1,4 +1,5 @@
 import styles from './Styles.module.css';
+import { Cyrcle } from '../Cyrcle';
 
 type FormHomeProps = {
   children: React.ReactNode;
@@ -11,10 +12,7 @@ export function FormHome({ children }: FormHomeProps) {
       <div className={styles.formRow}>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <div className={styles.formRow}>
-        <p>Ciclos</p>
-        <p> 0 0 0 0 0 </p>
-      </div>
+      <Cyrcle/>
       <div className={styles.formRow}>
         <button className={styles.enviar}>Enviar</button>
       </div>

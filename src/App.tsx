@@ -22,7 +22,12 @@ export function App() {
       </Container>
       <Container>
            <FormHome>
-              <Input id='defaultInput' type='text'/>
+              <Input labelText='Task' 
+              labelProps={{ style: { fontSize: '2.5rem' } }} 
+              id='defaultInput' 
+              type='text'
+              placeholder='Digite sua task'
+              />
             </FormHome> 
       </Container>
     </>

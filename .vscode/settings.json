@@ -1,7 +1,7 @@
 {
   "window.zoomLevel": 0,
   "breadcrumbs.enabled": true,
-  "editor.fontSize": 15,
+  "editor.fontSize": 18,
   "debug.console.fontSize": 14,
   "terminal.integrated.fontSize": 14,
   "editor.glyphMargin": false,

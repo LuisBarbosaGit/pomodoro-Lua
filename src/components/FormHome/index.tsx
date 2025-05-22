@@ -1,5 +1,7 @@
 import styles from './Styles.module.css';
 import { Cyrcle } from '../Cyrcle';
+import { DefaultButton } from '../DefaultButton';
+import { PlayCircleIcon } from 'lucide-react';
 
 type FormHomeProps = {
   children: React.ReactNode;
@@ -12,10 +14,8 @@ export function FormHome({ children }: FormHomeProps) {
       <div className={styles.formRow}>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <Cyrcle/>
-      <div className={styles.formRow}>
-        <button className={styles.enviar}>Enviar</button>
-      </div>
+      <Cyrcle />
+      <DefaultButton icon={<PlayCircleIcon />} color='green' />
     </form>
   );
 }

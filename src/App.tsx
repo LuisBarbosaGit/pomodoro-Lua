@@ -1,3 +1,4 @@
+
 import { Container } from './components/Container';
 import { CountDown } from './components/CountDown';
 import { Footer } from './components/Footer';
@@ -10,29 +11,31 @@ import './styles/global.css';
 import './styles/theme.css';
 
 export function App() {
+  
   return (
     <>
       <Container>
-            <Logo/>
+        <Logo/>
       </Container>
       <Container>
-            <Menu/>
+        <Menu />
       </Container>
       <Container>
-            <CountDown/>
+        <CountDown />
       </Container>
       <Container>
-           <FormHome>
-              <Input labelText='Task' 
-              labelProps={{ style: { fontSize: '2.5rem' } }} 
-              id='defaultInput' 
-              type='text'
-              placeholder='Digite sua task'
-              />
-            </FormHome> 
+        <FormHome>
+          <Input
+            labelText='Task'
+            labelProps={{ style: { fontSize: '2.5rem' } }}
+            id='defaultInput'
+            type='text'
+            placeholder='Digite sua task'
+          />
+        </FormHome>
       </Container>
       <Container>
-            <Footer/>
+        <Footer />
       </Container>
     </>
   );

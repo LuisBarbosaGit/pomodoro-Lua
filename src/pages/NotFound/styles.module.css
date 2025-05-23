@@ -1,0 +1,11 @@
+.image{
+  display: flex;
+  width: 90%;
+  display: flex;
+  height: 380px;
+  margin: 10px auto;
+}
+.image img{
+  background-size: contain;
+  width: 100%;
+}
